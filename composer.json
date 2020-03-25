@@ -1,0 +1,23 @@
+{
+    "name": "successgo/easy-sms-zenvia",
+    "description": "Zenvia SMS integration for easy-sms",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Success Go",
+            "email": "successgao@protonmail.ch"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "overtrue/easy-sms": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SuccessGo\\EasySms\\": "."
+        }
+    },
+    "minimum-stability": "stable"
+}
